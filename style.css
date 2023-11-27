@@ -21,6 +21,14 @@ header {
   text-align: center;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+  height: 100vh; /* 100% of the viewport height */
+}
+
+
 /* Containers */
 div {
   background-color: #eae2b7;
@@ -37,9 +45,24 @@ article div {
   width: 100%;
 }
 
+.flex-div {
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+  height: 100vh; /* 100% of the viewport height */
+}
+
+.p-about {
+  text-align: left;
+}
+
 /* Paragraphs */
 p {
   line-height: 1.5;
+}
+
+.p-descriptions{
+  font-size: 14px;
 }
 
 /* Links */
