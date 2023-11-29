@@ -25,7 +25,6 @@ header {
   display: flex;
   justify-content: center; /* Center the items horizontally */
   align-items: center; /* Center the items vertically */
-  height: 100vh; /* 100% of the viewport height */
 }
 
 
@@ -49,7 +48,11 @@ article div {
   display: flex;
   justify-content: center; /* Center the items horizontally */
   align-items: center; /* Center the items vertically */
-  height: 100vh; /* 100% of the viewport height */
+}
+
+.flex-albums {
+  display: flex;
+  align-items: start; /* Center the items vertically */
 }
 
 .p-about {
